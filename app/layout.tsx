@@ -21,12 +21,16 @@ export default function RootLayout({
         className={`${inter.className} bg-slate-200 text-gray-900 relative overflow-hidden`}
       >
         <div
-          className="bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] 
-        w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem]"
+          className="bg-[#d3d3d3] absolute top-[-10vw] right-[-10vw] w-[80vw] h-[40vw] rounded-full blur-[10vw] -z-10" 
         ></div>
         <div
-          className="bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[35rem] h-[31.25rem] 
-        w-[35rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem]"
+          className="bg-[#222222] absolute top-[-10vw] left-[-10vw] w-[80vw] h-[40vw] rounded-full blur-[40vw] -z-10" 
+        ></div>
+        <div
+          className="bg-[#fbe2e3] absolute bottom-[-100vw] left-[-10vw] w-[80vw] h-[80vw] rounded-full blur-[30vw] -z-10" 
+        ></div>
+        <div
+          className="bg-[#dbd7fb] absolute bottom-[-100vw] right-[-10vw] w-[80vw] h-[80vw] rounded-full blur-[30vw] -z-10" 
         ></div>
       </body>
     </html>
